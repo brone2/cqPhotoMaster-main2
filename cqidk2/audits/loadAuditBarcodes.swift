@@ -23,7 +23,7 @@ class loadAuditBarcodes: UIViewController {
     
     //Set the country
     if myCountry.lowercased().range(of:"usa") != nil {
-        print("is USA!")
+        print("is USA tru!")
                 standardCreatedBcReference = ["https://sheet.best/api/sheets/4b104909-e4e6-4bbb-b375-c0df2b7e1f61","https://sheet.best/api/sheets/4b453c9b-21ec-4dd3-ad40-909f239a4540","https://sheet.best/api/sheets/9c7e2103-d75a-4b7c-89a3-20b0590fbe70"]
         
                 variableCreatedBcReference = URL(string: "https://sheet.best/api/sheets/956ea209-12c3-46af-ba50-db0927679e62")!
